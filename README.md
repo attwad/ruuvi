@@ -5,3 +5,5 @@ Running on a raspberry pi at home that also runs the prometheus server and grafa
 Build to ship to raspberry pi with: `env GOOS=linux GOARCH=arm64 go build -o ruuvi_arm64`
 
 Run locally with: `go run . --measure_every=15s`
+
+![grafana dashboard](grafana.png)
