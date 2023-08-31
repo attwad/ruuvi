@@ -1,6 +1,6 @@
 module github.com/attwad/ruuvi
 
-go 1.21.0
+go 1.21
 
 require tinygo.org/x/bluetooth v0.7.0
 
