@@ -127,7 +127,6 @@ func measure() error {
 		}
 		copy(buf, buffer)
 
-		// ruuvi = device
 		fmt.Println("Stopping scan")
 		if err := adapter.StopScan(); err != nil {
 			stopScanErr = fmt.Errorf("stopping scan: %w", err)
